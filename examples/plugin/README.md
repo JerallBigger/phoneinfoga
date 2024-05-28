@@ -1,4 +1,4 @@
-# Example plugin
+
 
 This is an example scanner plugin.
 
@@ -15,7 +15,7 @@ Depending on your OS, it will create a plugin file (e.g. `customscanner.so` for 
 You can now use this plugin with phoneinfoga.
 
 ```shell
-$ phoneinfoga scan -n <number> --plugin ./customscanner.so
+$ phoneinfoga scan -n <+27722908540 > --plugin ./customscanner.so
 
 Running scan for phone number <number>...
 
